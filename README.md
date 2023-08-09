@@ -4,9 +4,9 @@ A Julia package for computing scalar and matrix-valued functions of matrix varia
 ## Reading Progress [1]
 - ⚡Chapter 0/14
 
-## Scalar Functions of Matrix Variables
-- [ ] `scalar_function(f, X)`
-- [ ] `scalar_function_frechet(f, X)`
+## ~~Scalar Functions of Matrix Variables~~ (already nicely done by gradient)
+- [ ] ~~`scalar_function(f, X)`~~
+- [ ] ~~`scalar_function_frechet(f, X)`~~
 
 ## Matrix-valued Functions of Matrix Variables
 - [ ] `matrix_function(f, X)`
