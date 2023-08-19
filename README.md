@@ -1,6 +1,7 @@
 # MatrixFunctions.jl
 A Julia package for computing scalar and matrix-valued functions of matrix variables and their Fréchet derivatives
-**Note:** This package is still under development. The features with check marks below are available. Those without are to be developed.
+
+_**Note:** This package is still under development. The features with check marks below are available. Those without are to be developed._
 
 ## Reading Progress [1]
 - ⚡Chapter 1/14
