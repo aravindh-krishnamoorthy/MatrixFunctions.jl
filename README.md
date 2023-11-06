@@ -7,7 +7,9 @@ _**Note:** This package is still under development. The features with check mark
 - ~~Chapter {1,4,9,13}/{1,4,9,13}~~
 
 ## Matrix-valued Functions of Matrix Variables
-- ⚡[ ] Matrix function `fm(f, X)`
+- Matrix function `fm(f, X)`
+    - ⚡[ ] `fm_schur_parlett(f, X)`
+    - [ ] ...
 - [ ] Matrix polynomial `pm(p, X)`
 
 # Fréchet derivatives
