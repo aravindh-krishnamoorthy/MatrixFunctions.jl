@@ -8,7 +8,7 @@ _**Note:** This package is still under development. The features with check mark
 
 ## Matrix-valued Functions of Matrix Variables
 - Matrix function `fm(f, X)`
-    - ⚡[ ] `fm_schur_parlett(f, X)`
+    - [ ] ⚡ `fm_schur_parlett(f, X)`
     - [ ] ...
 - [ ] Matrix polynomial `pm(p, X)`
 
