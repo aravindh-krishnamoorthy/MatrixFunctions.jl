@@ -8,7 +8,8 @@ _**Note:** This package is still under development. The features with check mark
 
 ## Matrix-valued Functions of Matrix Variables
 - Matrix function `fm(f, X)`
-    - [ ] ⚡ `fm_schur_parlett[...](f, X)` File: [schur_parlett.jl](https://github.com/aravindh-krishnamoorthy/MatrixFunctions.jl/blob/main/src/schurr_parlett.jl)
+    - [X]  `fm_schur_parlett_recurrence(f, X)` File: [schur_parlett.jl](https://github.com/aravindh-krishnamoorthy/MatrixFunctions.jl/blob/main/src/schurr_parlett.jl)
+    - [ ] ⚡ `fm_schur_parlett_block(f, X)` File: [schur_parlett.jl](https://github.com/aravindh-krishnamoorthy/MatrixFunctions.jl/blob/main/src/schurr_parlett.jl)
     - [ ] ...
 - [ ] Matrix polynomial `pm(p, X)`
 
