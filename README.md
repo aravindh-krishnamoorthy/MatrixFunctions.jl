@@ -11,11 +11,13 @@ _**Note:** This package is still under development. The features with check mark
     - [X]  `fm_schur_parlett_recurrence(f, X)` File: [schur_parlett.jl](https://github.com/aravindh-krishnamoorthy/MatrixFunctions.jl/blob/main/src/schur_parlett.jl)
     - [ ] ⚡ `fm_schur_parlett_block(f, X)` File: [schur_parlett.jl](https://github.com/aravindh-krishnamoorthy/MatrixFunctions.jl/blob/main/src/schur_parlett.jl)
     - [ ] ...
+    - [ ] Tests
+    - [ ] Code optimisation
 - [ ] Matrix polynomial `pm(p, X)`
 
 # Fréchet derivatives
-- [ ] Matrix polynomial and its Fréchet derivative `pm_frechet(f, X, E)`
-- [ ] Matrix function and its Fréchet derivative `fm_frechet(f, X, E)`
+- [ ] `pm_frechet(f, X, E)` -- Fréchet derivative of a matrix polynomial
+- [ ] `fm_frechet(f, X, E)` -- Fréchet derivative of a matrix function
 
 # References
 | | |
