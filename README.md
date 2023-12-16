@@ -3,7 +3,8 @@ A Julia package for computing scalar and matrix-valued functions of matrix varia
 
 _**Note:** This package is still under development. The features with check marks below are available. Those without are to be developed._
 
-## Reading progress for The Book [1]
+# Preparation
+## The Book [1]: Reading progress
 - [X] Chapter 1: Theory of Matrix Functions
 - [X] Chapter 4: Techniques for General Functions
 - [X] Chapter 9: Schur-Parlett Algorithm
@@ -12,6 +13,7 @@ _**Note:** This package is still under development. The features with check mark
 - [ ] Chapter 3: Conditioning
 - [ ] Others
 
+# Implementation
 ## Matrix-valued functions of matrix variables
 - Matrix function `fm(f, X)`
     - [X]  `fm_schur_parlett_recurrence(f, X)` File: [schur_parlett.jl](https://github.com/aravindh-krishnamoorthy/MatrixFunctions.jl/blob/main/src/schur_parlett.jl)
@@ -19,14 +21,32 @@ _**Note:** This package is still under development. The features with check mark
     - [ ] ...
     - [ ] Tests
     - [ ] Code optimisation
-- [ ] Matrix polynomial `pm(p, X)`
+   
+## Fréchet derivatives of matrix functions
+- Fréchet derivative of a matrix function `fm_frechet(f, X, E)`
+    - [ ] `fm_frechet_[...](f, X, E)` 
+    - [ ] ...
+    - [ ] Tests
+    - [ ] Code optimisation
 
 ## Function of matrix times vector
-- [ ] `fmv_[..](f, X, y)` - $f(\boldsymbol{X})\boldsymbol{y}$
-    
-## Fréchet derivatives of matrix functions
-- [ ] `pm_frechet(f, X, E)` -- Fréchet derivative of a matrix polynomial
-- [ ] `fm_frechet(f, X, E)` -- Fréchet derivative of a matrix function
+- Matrix times vector $f(\boldsymbol{X})\boldsymbol{y}$ -- `fmv(f, X, y)`
+    - [ ] `fmv_[..](f, X, y)` 
+    - [ ] ...
+    - [ ] Tests
+    - [ ] Code optimisation
+
+## Matrix polynomials
+- Matrix polynomial `pm(p, X)`
+    - [ ] `pm_[...](f, X, E)`  
+    - [ ] ...
+    - [ ] Tests
+    - [ ] Code optimisation
+- Fréchet derivative of a matrix polynomial `pm_frechet(f, X, E)`
+    - [ ] `pm_frechet_[...](f, X, E)`  
+    - [ ] ...
+    - [ ] Tests
+    - [ ] Code optimisation
 
 # References
 | | |
