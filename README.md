@@ -30,7 +30,7 @@ _**Note:** This package is still under development. The features with check mark
     - [ ] Code optimisation
 
 ## Function of matrix times vector
-- Matrix times vector $f(\boldsymbol{X})\boldsymbol{y}$ -- `fmv(f, X, y)`
+- Matrix times vector $f(\boldsymbol{X})\boldsymbol{y}$ `fmv(f, X, y)`
     - [ ] `fmv_[..](f, X, y)` 
     - [ ] ...
     - [ ] Tests
