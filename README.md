@@ -7,8 +7,14 @@ Copyright (C) 2023 Aravindh Krishnamoorthy and contributors.<br>
 
 _**Note:** This package is still under development. The features with check marks below are available. Those without are to be developed._
 
-# Preparation
-## The Book [1]: Reading progress
+## Table of Contents
+- [Preparation](#preparation)
+- [Implementation](#implementation)
+- [Usage](#usage)
+- [References](#references)
+
+## Preparation
+### The Book [1]: Reading progress
 - [X] Chapter 1: Theory of Matrix Functions
 - [X] Chapter 4: Techniques for General Functions
 - [X] Chapter 9: Schur-Parlett Algorithm
@@ -17,8 +23,8 @@ _**Note:** This package is still under development. The features with check mark
 - [ ] Chapter 3: Conditioning
 - [ ] Others
 
-# Implementation
-## Matrix-valued functions of matrix variables
+## Implementation
+### Matrix-valued functions of matrix variables
 - Matrix function `fm(f, X)`
     - [X]  `fm_schur_parlett_recurrence(f, X)` File: [schur_parlett.jl](https://github.com/aravindh-krishnamoorthy/MatrixFunctions.jl/blob/main/src/schur_parlett.jl)
     - [ ] ⚡ `fm_schur_parlett_block(f, X)` File: [schur_parlett.jl](https://github.com/aravindh-krishnamoorthy/MatrixFunctions.jl/blob/main/src/schur_parlett.jl)
@@ -26,21 +32,21 @@ _**Note:** This package is still under development. The features with check mark
     - [ ] Tests
     - [ ] Code optimisation
    
-## Fréchet derivatives of matrix functions
+### Fréchet derivatives of matrix functions
 - Fréchet derivative of a matrix function `fm_frechet(f, X, E)`
     - [ ] `fm_frechet_[...](f, X, E)` 
     - [ ] ...
     - [ ] Tests
     - [ ] Code optimisation
 
-## Function of matrix times vector
+### Function of matrix times vector
 - Matrix times vector $f(\boldsymbol{X})\boldsymbol{y}$ `fmv(f, X, y)`
     - [ ] `fmv_[..](f, X, y)` 
     - [ ] ...
     - [ ] Tests
     - [ ] Code optimisation
 
-## Matrix polynomials
+### Matrix polynomials
 - Matrix polynomial `pm(p, X)`
     - [ ] `pm_[...](f, X, E)`  
     - [ ] ...
@@ -52,13 +58,19 @@ _**Note:** This package is still under development. The features with check mark
     - [ ] Tests
     - [ ] Code optimisation
 
-# References
+## Usage
+A Julia `Pkg` package is not setup yet and will be done once implementation is complete. Until then, this package can be loaded as follows.
+```julia
+julia> include("/<path>/MatrixFunctions.jl/src/MatrixFunctions.jl")
+```
+
+## References
 | | |
 | --- | --- |
 | [1] | Higham, Nicholas J. Functions of matrices: theory and computation. Society for Industrial and Applied Mathematics, 2008. |
 
 <!---
-# Notes
+## Notes
 - From https://github.com/JuliaLang/julia/discussions/43982#discussioncomment-6678802
   -  The block method given above (Eq 3.16)
   -  Daleckii-Krein using the eigendecomposition for normal matrices (Corollary 3.12)
