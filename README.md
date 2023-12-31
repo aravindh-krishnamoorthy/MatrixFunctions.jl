@@ -8,7 +8,7 @@ _**Note:** This package is still under development. The features with check mark
 - [X] Chapter 1: Theory of Matrix Functions
 - [X] Chapter 4: Techniques for General Functions
 - [X] Chapter 9: Schur-Parlett Algorithm
-- [X] Chapter 13: Function of Matrix Times Vector: $f(\boldsymbol{A})\boldsymbol{b}$
+- [ ] Chapter 13: Function of Matrix Times Vector: $f(\boldsymbol{A})\boldsymbol{b}$
 - [ ] Chapter 2: Applications
 - [ ] Chapter 3: Conditioning
 - [ ] Others
